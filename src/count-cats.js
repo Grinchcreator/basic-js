@@ -24,8 +24,6 @@ function countCats(cats){
       return count;
      }
 
-return countCats;
-
 
 
 module.exports = {
