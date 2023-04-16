@@ -12,7 +12,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  * createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']) => 'ADMM'
  * createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]) => 'LOO'
  *
-const createDreamTeam = ['Matt', 'Ann', 'Dmitry', 'Max'];
 
 for (let word of createDreamTeam) {
     word = word.charAt().toUpperCase() + word.slice(1);
