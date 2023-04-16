@@ -19,13 +19,16 @@ const DreamTeam = ['Matt', 'Ann', 'Dmitry', 'Max'];
 for (let word of DreamTeam) {
     word = word.charAt().toUpperCase() + word.slice(1);
     console.log(word);
+    return word;
 }
 DreamTeam.sort();
 console.log(DreamTeam);
+    return DreamTeam;
 
 const TeamName = DreamTeam.map((word) => word[0]).join('');
 console.log(TeamName);
 }
+   return TeamName;
 
 module.exports = {
   createDreamTeam
